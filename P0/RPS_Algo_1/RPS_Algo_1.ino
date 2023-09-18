@@ -574,7 +574,7 @@ RPSChoice use_strategy(strategies strategy){
     case (0):
       return randRPS();
     case (1):
-      return counter_opp_rotation(int prev_round)
+      return counter_opp_rotation(roundsPlayed-1);
     case (2):
       return beat_last_input_counter(roundsPlayed-1);
     case (3):
